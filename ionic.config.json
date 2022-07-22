@@ -1,0 +1,7 @@
+{
+  "name": "ShoPlant",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

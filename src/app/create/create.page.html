@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><center>Create Account</center></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="assets\icon\shoplant.png">
+  <ion-card>
+    <ion-item>
+      <ion-label position="floating">First Name:</ion-label>
+      <ion-input type="text" [(ngModel)]="form.firstname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Last Name:</ion-label>
+      <ion-input type="text"[(ngModel)]="form.lastname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Contact Number:</ion-label>
+      <ion-input type="Number" [(ngModel)]="form.contact"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Email:</ion-label>
+      <ion-input type="text" [(ngModel)]="form.email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password:</ion-label>
+      <ion-input type="password" [(ngModel)]="form.password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Confirm Password:</ion-label>
+      <ion-input type="password" [(ngModel)]="form.conpassword"></ion-input>
+    </ion-item>
+  </ion-card>
+  <br><br>
+  <br><center><ion-button class="button1" (click)="print()" [routerLink]="'/login'">Create Account</ion-button></center>
+</ion-content>
