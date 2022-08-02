@@ -1,0 +1,40 @@
+.icon{
+    height: 30px;
+    width: 30px;
+  }
+  ion-content{
+    --ion-background-color: #d4ffe0;
+  }
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --ion-color-base: transparent !important; 
+  }
+  ion-header{
+    display: inline-block;
+    --ion-background-color: transparent;
+  }
+  .des{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    
+  }
+  .info{
+    font-weight: bolder;
+  }
+  .clor{
+    margin-left: -10px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  .cart{
+    --background: #94641b;
+  }
+  .price{
+    float: right;
+    margin-right: 15px;
+  }
+  .cart:after{
+    --background: #92764c;
+  }

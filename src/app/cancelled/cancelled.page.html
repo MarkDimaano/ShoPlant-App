@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title ><ion-button [routerLink]="'/option'" ><ion-icon name="arrow-back-outline" ></ion-icon></ion-button>&nbsp;CANCELLED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ion-button><ion-icon name="search-outline" class="search"></ion-icon></ion-button><ion-button><ion-icon name="chatbox-ellipses-outline"></ion-icon></ion-button></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+  
+  </ion-header>
+
+  <ion-tabs>
+    <ion-tab-bar slot="top" >
+      <ion-tab-button [routerLink]="'/yourorder'">
+        <ion-label>To Pay</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="'/toship'">
+        <ion-label>To Ship</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="'/torec'">
+        <ion-label>To Receive</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="'/cancelled'">
+        <ion-label>Canceled</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button [routerLink]="'/completed'">
+        <ion-label>Completed</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  
+  <ion-card class="cancel">
+    <ion-item>
+    <ion-icon name="person-circle-outline" class="person"></ion-icon>&nbsp;&nbsp;"SELLER NAME"</ion-item>
+    <ion-item><br>
+    <img src="assets\icon\cancel.jpg" style="height: 70px;"><p>&nbsp;&nbsp;1KG Chia Seeds authentic organic &nbsp;&nbsp;seed 1 kilogram 500 grams 500g</p>
+  </ion-item>
+  <ion-item>
+    <ion-label class="total">Order total: P380</ion-label>
+  </ion-item>
+    <ion-item>
+      <ion-button class="buy" [routerLink]="'/home2'">Buy Again</ion-button>
+    </ion-item>
+  </ion-card>
+</ion-content>

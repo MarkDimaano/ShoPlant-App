@@ -10,9 +10,12 @@ export class CreatePage{
   constructor() { }
 
     public form={
-      lastname: "",
       firstname: "",
+      midname:"",
+      lastname: "",
+      address:"",
       contact: "",
+      username:"",
       email: "",
       password:"",
       conpassword: ""

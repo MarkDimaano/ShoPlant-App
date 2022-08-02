@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><center>Product Information</center></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+    <img src="assets\icon\shoplant.png">
+  <h3><center>START SELLING</center></h3>
+  <ion-item>
+    <ion-label position="floating">Name of the Product:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating" >Price input:</ion-label>
+    <ion-input type="number" placeholder="Include Price range"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Category:</ion-label>
+    <ion-input type="text"placeholder="Plants, Crops etc."></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-textarea class="textbox" rows="6" cols="20" placeholder="Short Description here ...."></ion-textarea>
+  </ion-item>
+  <ion-item><ion-label>Include Pictures of the Product.</ion-label></ion-item>
+  <ion-item><br>
+    <ion-content ng-controller="UploadController">
+      <input class="bottom-marg-15" type="file" name="file" file="file">
+      <button class="button button-small button-full button-positive" ng-disabled="file.size&amp;&amp;false || uploadProgress&gt;0" ng-click="upload()" ng-cloak=""></button>
+      <img class="fit" ng-if="uploadUri" ng-src="">
+      <a ng-href="" ng-bind="uploadUri"></a>
+    </ion-content>
+  </ion-item><br>
+  <ion-button class="Next-button" [routerLink]="'/option'">Confirm</ion-button>
+  <ion-button class="Next-button">Upload</ion-button>
+  
+</ion-content>

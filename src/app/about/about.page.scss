@@ -1,0 +1,50 @@
+ion-content{
+    --ion-background-color:#d4ffe0;
+  }
+  ion-title{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+  }
+  ion-toolbar{
+    --ion-background-color: #d4ffe0;
+  }
+  ion-button{
+    --ion-background-color: #94641b;
+  }
+  ion-icon{
+    --ion-background-color: #94641b;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: 20px;
+  }
+  .head{
+    --ion-background-color:#d4ffe0;
+  
+  }
+  .Hello{
+    font-size: 15px;
+  }
+  .We{
+    font-size: 15px;
+    float: right;
+    text-align: center;
+  }
+  .First{
+    font-size: 25px;  
+     color: #94641b;
+     font-weight: 700;
+  }
+  .who{
+    font-size: 25px;
+    color: #94641b;
+    font-weight: 700;
+  }
+  .image1{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,38 @@
+ion-header{
+    --ion-background-color:#d4ffe0;
+}
+.buttons{
+    --background:#94641b;
+  font-size: large;
+  width: 95%;
+  height: 50px;
+  margin-left: 5px;
+  }
+ion-content{
+    --ion-background-color:#d4ffe0;
+  
+  }
+  ion-title{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    
+    
+
+  }
+  ion-items{
+  position: center;
+  }
+.button1{
+    font-size: large;
+    width: 60%;
+    margin-right: 75px;
+    float: right;
+    --background:#1f1b94;
+    }
+ion-icon{
+    width: 30px;
+    height: 30px;
+    float: left;
+
+}

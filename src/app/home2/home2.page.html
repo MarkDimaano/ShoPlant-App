@@ -1,0 +1,125 @@
+<ion-content [fullscreen]="true">
+  <ion-button [routerLink]="'/option'"><ion-icon name="list-outline" ></ion-icon> </ion-button>
+  <img src ="assets\icon\shoplant.png" alt="shoplant" height="50px" width="250px">
+  <ion-button [routerLink]="'/yourorder'"><ion-icon name="cart-outline"></ion-icon></ion-button>
+
+<center><img src="assets\icon\plants.jpg" height="150px" width="350px"></center> 
+
+
+  <h5 class="categ">CATEGORIES</h5>
+  <div class="images">
+    <a [routerLink]="'/prodinfo'">
+      <ion-img id="seeds" src="assets\icon\seed1.jpg" ></ion-img><ion-text color="dark" class="crops">SEEDS</ion-text></a>
+    <a [routerLink]="'/prodinfo2'"> 
+      <ion-img id="seeds" src="assets\icon\crops.jpg" ></ion-img><ion-text color="dark" class="crops">CROPS</ion-text></a>
+    <a [routerLink]="'/prodinfo3'">
+      <ion-img id="seeds" src="assets\icon\plant.jpg" ></ion-img><ion-text color="dark" class="crops">PLANTS</ion-text></a>
+  </div>
+  <h5 class="categ">Something that interest you</h5>
+  
+  
+<ion-slides [option]="option" class="ion-margin-top">
+
+<ion-slide>
+  <ion-card>
+    <img src="assets\icon\plant1.webp">
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <img src="assets\icon\plant2.jpg">
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <img src="assets\icon\plant3.jpg">
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <img src="assets\icon\seed1.jpg">
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <img src="assets\icon\seed2.jpg">
+  </ion-card>
+</ion-slide>
+</ion-slides>
+
+
+  <div class="ItemDiv">
+    <a [routerLink]="'/info'"><ion-card class="items">
+    <ion-card-content class="items1">
+      <img class="product1" src="assets/icon/Palmera.jpg">
+      <p>Palmera golden live plant.</p>
+      <p class="prices">P341</p>
+    </ion-card-content>
+  </ion-card></a>
+  
+  <ion-card class="items">
+    <ion-card-content class="items1">
+      <img class="product1" src="assets/icon/Dumbcane.jpg">
+      <p>Dumb Cane Big Leaves.</p>
+      <p class="prices">P250</p>
+    </ion-card-content>
+  </ion-card>
+  </div>
+  <div class="ItemDiv">
+  <ion-card class="items">
+    <ion-card-content class="items1">
+      <img class="product1" src="assets/icon/Chia.jpg">
+      <p>Chia Seeds</p>
+      <br>
+      <p class="prices">P135-250</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="items">
+    <ion-card-content class="items1">
+      <img class="product1" src="assets/icon/Caladium.jpg">
+      <p>Caladium Seeds</p><br>
+      <p class="prices">P159</p>
+    </ion-card-content>
+  </ion-card>
+  </div>
+  <div class="ItemDiv">
+    <ion-card class="items">
+      <ion-card-content class="items1">
+        <img class="product1" src="assets/icon/Rice.jpg">
+        <p>Rice seed round grain</p><br>
+        <p class="prices">P188</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="items">
+      <ion-card-content class="items1">
+        <img class="product1" src="assets/icon/Corn.jpg">
+        <p>Sweet Corn</p><br>
+        <p class="prices">P150</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div class="ItemDiv">
+    <ion-card class="items">
+      <ion-card-content class="items1">
+        <img class="product1" src="assets/icon/Begonia.jpg">
+        <p>Begonia Seeds</p><br>
+        <p class="prices">P142</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="items">
+      <ion-card-content class="items1">
+        <img class="product1" src="assets/icon/Heart.jpg">
+        <p>Caladium "Heart Of Jesus"</p>
+        <p class="prices">P199</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <center><ion-spinner name="dots"></ion-spinner></center>
+
+
+ 
+</ion-content>

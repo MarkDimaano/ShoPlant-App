@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title ><ion-button [routerLink]="'/option'"><ion-icon name="arrow-back-outline" ></ion-icon></ion-button>&nbsp;TO SHIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ion-button><ion-icon name="search-outline" class="search"></ion-icon></ion-button><ion-button><ion-icon name="chatbox-ellipses-outline"></ion-icon></ion-button></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+
+  </ion-header>
+
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button [routerLink]="'/yourorder'">
+        <ion-label>To Pay</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button  [routerLink]="'/toship'">
+        <ion-label>To Ship</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button  [routerLink]="'/torec'">
+        <ion-label>To Receive</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="'/cancelled'">
+        <ion-label>Canceled</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button  [routerLink]="'/completed'">
+        <ion-label>Completed</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
+<ion-content>
+    <center><p class="orders">No Orders yet</p>
+      <span class="emoji">😞</span>
+    </center>
+
+</ion-content>
+<ion-content>
+  <br>
+  <br>
+  <center><ion-button>
+   
+    Start Browsing
+  </ion-button></center>
+</ion-content>
